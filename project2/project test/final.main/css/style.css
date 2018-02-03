@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.4em;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4em;
+}
+
+h1{
+    font-size: 300%;    
+}
+
+h1#medico{
+    float: right;
+    font-size: 250%;
+    text-align: center;
+    padding-top: 3px;
+    padding-left: 8px;
+}
+
+.continer{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    align-items: center;
+    height: 80px;    
+    position: fixed;
+    width: 100%;
+}
+
+ .logo{
+    display: inline-block;
+    padding-left: 25px;
+} 
+
+  #image{
+    width: 80px;
+    height: 80px;
+}  
+
+.navbar{
+    padding : 10 60 0 10;
+    text-align: center;
+    text-align: right;
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 1em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+ 
+ /* nav ul li.sub{
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    width: 10px;
+}  */
+
+div.main{
+     background-image: url("../images/slide03.jpg"); 
+     background-repeat: no-repeat; 
+     background-color: pink;
+     background-size: cover;
+     height: 700px;
+     background-position: center center;
+    
+}
+
+.grid{
+    display: inline-flex;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    text-align: center;
+}
+
+.grid-1,.grid-2{
+
+    width: 33%;
+}
+
+.grid-1{
+    background-image: url("../images/teaser01.jpg");
+    box-shadow: inset 0 0 0 300px rgba(74, 163, 201, 0.90);
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    background-size: cover;
+}
+
+.grid-2{
+    background-image: url("../images/teaser02.jpg");
+    box-shadow: inset 0 0 0 300px rgba(94,142,203,.90);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-3{
+    width: 34%;
+    background-image: url("../images/teaser03.jpg");
+    box-shadow: inset 0 0 0 300px rgba(127,119,179,0.90);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-1-head{
+    padding: 50px;
+}
+
+h1#visit{
+    color: #ffffff;
+}
+ 
+input{
+    padding: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    width: 80%;
+    border: 1px solid #ffffff;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+input.submit{
+    background-color: #323232;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: #ffffff;
+  text-align: left;
+  padding-left: 15px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color:#ffffff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color:#ffffff;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color:#ffffff;
+  opacity: 1;
+}

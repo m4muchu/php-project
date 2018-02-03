@@ -1,0 +1,50 @@
+<html>
+<head><title>register</title></head>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+ <style type="text/css">
+ body{
+     font : 14px sans-serif;
+     background-color : #acc9e3;
+ }
+
+ 
+ .wrapper{
+     width:350px;
+     padding:20px;
+
+ }
+
+ 
+
+ #username{
+     padding: 10px;
+ }
+
+ #submit{
+     padding: 10px;
+     
+ }
+ </style>
+<body>
+
+<div class=wrapper>
+    <h2>Login</h2>
+    <form action="checklogin.php" method="POST">
+    <div id="username">
+    Username: </br><input type="text" name="username" required="required" /></br>
+    </div>
+    <div id="username">
+    Password:</br> <input  id="input" type="password" name="password" reqired="reqired"/></br>
+    </div>
+
+    <div id="submit">
+    <input type="submit" value="Register"/>
+
+    
+</div>
+    </form>
+
+</div>    
+</body>
+
+</html>
